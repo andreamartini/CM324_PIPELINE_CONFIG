@@ -1,0 +1,38 @@
+{
+	"file": "mm3d_c3dc_input.json",
+	"version": "1.0",
+	"date": "22/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "C3DC",
+    "info" : "https://micmac.ensg.eu/index.php/C3DC",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "Mode": { 
+                    "value" : "QuickMac",
+                    "description" : "multistereoscopic with ZoomF=8, ie. low preset 1pt/64px (other Values: Statue, Forest, TestIGN, MicMac, BigMac"
+                    },
+        "RegExp": 
+                {
+                    "value" : ".*JPG",
+                    "description" : "Regular Expression referring to the images to process"
+                },
+        "Orientation": 
+                {
+                    "value" : "rettCal-Campari-GPS",
+                    "description" : "is the orientation directory of the images to use to compute the point cloud (last orientation directory computed, step Center Bascule or Campari)."
+                },
+        "Output": 
+                {
+                    "value" : "DensePointcloud.ply",
+                    "description" : "is the name of the output ply file (C3DC_[Mode].ply by default)."
+                },
+       
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after c3dc command execution"
+                  },
+        "logfile" : "Log_MM3D_C3DC.log"
+	} 
+}

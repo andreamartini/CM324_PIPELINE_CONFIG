@@ -1,0 +1,84 @@
+{
+	"file": "MISSION1_project.json",
+	"version": "1.0",
+	"date": "07/07/2020",
+    "author": "",
+    "description": "Missione su cantiere in Piemonte del luglio 2020",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "XifGps2Txt,Oriconvert,Tapioca,Tapas,AperiCloud,CenterBascule,Campari,AperiCloud#1,GCPConvert,AutoCollimation,GCPBascule,Campari#1,AperiCloud#2,C3DC",
+    "pipeline":
+    {
+        "XifGps2Txt": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_xifgps2txt_input.json",
+                    "description" : "file di configurazione per il comando XifGps2Txt"
+                },
+        "Oriconvert": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_oriconvert_input.json",
+                    "description" : "file di configurazione per il comando Oriconvert"
+                },
+        "Tapioca": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_tapioca_input.json",
+                    "description" : "file di configurazione per il comando Tapioca"
+                },
+        "Tapas": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_tapas_input.json",
+                    "description" : "file di configurazione per il comando tapas"
+                },
+        "AperiCloud": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_apericloud_input.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "CenterBascule": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_center_bascule_input.json",
+                    "description" : "file di configurazione per il comando CenterBascule"
+                },
+        "Campari": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_campari_input.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud#1": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_apericloud1_input.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "GCPConvert": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_gcpconvert_input.json",
+                    "description" : "file di configurazione per il comando GCPConvert"
+                },
+        "AutoCollimation":
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_autocollimation_input.json",
+                    "description" : "file di configurazione per il comando di collimazione automatica"       
+                },
+        "GCPBascule":
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_gcpbascule_input.json",
+                    "description" : "file di configurazione per il comando gcp bascule"       
+                },
+        "Campari#1": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_campari1_input.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud#2": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_apericloud2_input.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "C3DC": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_c3dc_input.json",
+                    "description" : "file di configurazione per il comando C3DC"
+                }
+	} 
+}

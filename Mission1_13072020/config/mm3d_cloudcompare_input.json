@@ -1,0 +1,43 @@
+{
+	"file": "mm3d_cloudcompare_input.json",
+	"version": "1.0",
+	"date": "22/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "CloudCompare",
+    "info" : "https://www.cloudcompare.org/doc/wiki/index.php?title=Command_line_mode",
+    "workingDir" : "../images",
+    "parameters":
+    {
+	    "Input": { 
+                    "value" : "pdal_point_cloud.las",
+                    "description" : "Input file"
+                    },
+        "Output": 
+                {
+                    "value" : "cloud_compare_subsampled_point_cloud.las",
+                    "description" : "Output file"
+                },
+        "Silent_Mode": 
+                {
+                    "value" : "-SILENT",
+                    "description" : "Mostra l'output a console o meno"
+                },
+        "Export_fmt": 
+                {
+                    "value" : "LAS",
+                    "description" : "Formato di uscita del file di output"
+                },
+        "Subsampling": 
+                {
+                    "value" : "OCTREE 11",
+                    "description" : "Comando che specifica la modalità di sottocampionamento"
+                },
+       
+        "Timeout":{
+                    "value" : 1500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after c3dc command execution"
+                  },
+        "logfile" : "Log_CloudCompare.log"
+	} 
+}

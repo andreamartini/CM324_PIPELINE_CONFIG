@@ -1,0 +1,116 @@
+{
+  "GCP":[
+          {
+            "IdMarker" : 0,
+            "GCPName" : "GCP000"
+          },
+          {
+            "IdMarker" : 14,
+            "GCPName" : "GCP014"
+          },
+          {
+            "IdMarker" : 46,
+            "GCPName" : "GCP046"
+          },
+          {
+            "IdMarker" : 67,
+            "GCPName" : "GCP067"
+          },
+          {
+            "IdMarker" : 79,
+            "GCPName" : "GCP079"
+          },
+          {
+            "IdMarker" : 82,
+            "GCPName" : "GCP082"
+          },
+          {
+            "IdMarker" : 91,
+            "GCPName" : "GCP091"
+          },
+          {
+            "IdMarker" : 117,
+            "GCPName" : "GCP117"
+          },
+          {
+            "IdMarker" : 128,
+            "GCPName" : "GCP128"
+          },
+          {
+            "IdMarker" : 135,
+            "GCPName" : "GCP135"
+          },
+          {
+            "IdMarker" : 139,
+            "GCPName" : "GCP139"
+          },
+          {
+            "IdMarker" : 143,
+            "GCPName" : "GCP143"
+          },
+          {
+            "IdMarker" : 144,
+            "GCPName" : "GCP144"
+          },
+          {
+            "IdMarker" : 160,
+            "GCPName" : "GCP160"
+          },
+          {
+            "IdMarker" : 162,
+            "GCPName" : "GCP162"
+          },
+          {
+            "IdMarker" : 165,
+            "GCPName" : "GCP165"
+          },
+          {
+            "IdMarker" : 174,
+            "GCPName" : "GCP174"
+          },
+          {
+            "IdMarker" : 197,
+            "GCPName" : "GCP197"
+          },
+          {
+            "IdMarker" : 199,
+            "GCPName" : "GCP199"
+          },
+          {
+            "IdMarker" : 220,
+            "GCPName" : "GCP220"
+          },
+          {
+            "IdMarker" : 230,
+            "GCPName" : "GCP230"
+          },
+          {
+            "IdMarker" : 231,
+            "GCPName" : "GCP231"
+          },
+          {
+            "IdMarker" : 232,
+            "GCPName" : "GCP232"
+          },
+               {
+            "IdMarker" : 234,
+            "GCPName" : "GCP234"
+          },
+          {
+            "IdMarker" : 246,
+            "GCPName" : "GCP246"
+          },
+          {
+            "IdMarker" : 249,
+            "GCPName" : "GCP249"
+          },
+          {
+            "IdMarker" : 254,
+            "GCPName" : "GCP254"
+          },
+          {
+            "IdMarker" : 256,
+            "GCPName" : "GCP256"
+          }
+        ]
+}

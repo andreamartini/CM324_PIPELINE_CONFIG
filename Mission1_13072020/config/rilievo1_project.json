@@ -1,0 +1,68 @@
+{
+	"file": "rilievo1_project.json",
+	"version": "1.0",
+	"date": "04/02/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "XifGps2Txt,Oriconvert,Pastis,MakeF,Tapas,CenterBascule,Campari,AperiCloud,C3DC,PoissonRecon,SurfaceTrimmer",
+    "pipeline":
+    {
+        "XifGps2Txt": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_xifgps2txt_input.json",
+                    "description" : "file di configurazione per il comando XifGps2Txt"
+                },
+        "Oriconvert": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_oriconvert_input.json",
+                    "description" : "file di configurazione per il comando Oriconvert"
+                },
+        "Pastis": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_pastis_input.json",
+                    "description" : "file di configurazione per il comando Pastis"
+                },
+        "MakeF": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/make_f_input.json",
+                    "description" : "file di configurazione per il comando MakeF"
+                },
+        "Tapas": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_tapas_input.json",
+                    "description" : "file di configurazione per il comando Tapas"
+                },
+        "CenterBascule": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_center_bascule_input.json",
+                    "description" : "file di configurazione per il comando CenterBascule"
+                },
+        "Campari": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_campari_input.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_apericloud.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "C3DC": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_c3dc_input.json",
+                    "description" : "file di configurazione per il comando C3DC"
+                },
+        "PoissonRecon": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_poissonrecon_input.json",
+                    "description" : "file di configurazione per il comando PoissonRecon"
+                },
+        "SurfaceTrimmer":
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/Project_1/config/mm3d_surfacetrimmer_input.json",
+                    "description" : "file di configurazione per il comando SurfaceTrimmer"       
+                }
+	} 
+}

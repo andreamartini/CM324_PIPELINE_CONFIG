@@ -1,0 +1,33 @@
+{
+	"file": "mm3d_surfacetrimmer_input.json",
+	"version": "1.0",
+	"date": "22/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "SurfaceTrimmer",
+    "info" : "https://github.com/mkazhdan/PoissonRecon",
+    "workingDir" : "../images",
+    "parameters":
+    {
+	    "Input": { 
+                    "value" : "poisson_recon_point_cloud.ply",
+                    "description" : "Input file"
+                    },
+        "Output": 
+                {
+                    "value" : "surface_trimmer_point_cloud.ply",
+                    "description" : "Output file"
+                },
+        "Trim": 
+                {
+                    "value" : "7",
+                    "description" : "Unknown."
+                },
+       
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after c3dc command execution"
+                  },
+        "logfile" : "Log_MM3D_SURFACE_TRIMMER.log"
+	} 
+}

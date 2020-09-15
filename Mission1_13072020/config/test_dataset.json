@@ -1,0 +1,68 @@
+{
+	"file": "fragagnano_alta_project.json",
+	"version": "1.0",
+	"date": "04/02/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "XifGps2Txt,Oriconvert,Pastis,MakeF,Tapas,CenterBascule,Campari,C3DC,PoissonRecon,SurfaceTrimmer,Pdal",
+    "pipeline":
+    {
+        "XifGps2Txt": 
+                {
+                    "value" : "mm3d_xifgps2txt_input.json",
+                    "description" : "file di configurazione per il comando XifGps2Txt"
+                },
+        "Oriconvert": 
+                {
+                    "value" : "mm3d_oriconvert_input.json",
+                    "description" : "file di configurazione per il comando Oriconvert"
+                },
+        "Pastis": 
+                {
+                    "value" : "mm3d_pastis_input.json",
+                    "description" : "file di configurazione per il comando Pastis"
+                },
+        "MakeF": 
+                {
+                    "value" : "make_f_input.json",
+                    "description" : "file di configurazione per il comando MakeF"
+                },
+        "Tapas": 
+                {
+                    "value" : "mm3d_tapas_input.json",
+                    "description" : "file di configurazione per il comando Tapas"
+                },
+        "CenterBascule": 
+                {
+                    "value" : "mm3d_center_bascule_input.json",
+                    "description" : "file di configurazione per il comando CenterBascule"
+                },
+        "Campari": 
+                {
+                    "value" : "mm3d_campari_input.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "C3DC": 
+                {
+                    "value" : "mm3d_c3dc_input.json",
+                    "description" : "file di configurazione per il comando C3DC"
+                },
+        "PoissonRecon": 
+                {
+                    "value" : "mm3d_poissonrecon_input.json",
+                    "description" : "file di configurazione per il comando PoissonRecon"
+                },
+        "SurfaceTrimmer":
+                {
+                    "value" : "mm3d_surfacetrimmer_input.json",
+                    "description" : "file di configurazione per il comando SurfaceTrimmer"       
+                },
+        "Pdal":
+                {
+                    "value" : "mm3d_pdal_input.json",
+                    "description" : "file di configurazione per il comando pdal"       
+                }
+	} 
+}

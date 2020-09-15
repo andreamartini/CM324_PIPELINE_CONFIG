@@ -1,0 +1,67 @@
+{
+	"file": "mm3d_pastis_input.json",
+	"version": "1.0",
+	"date": "14/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Pastis",
+    "info" : "Pastis is a more powerful tool than Tapioca. See DocMicMac.pdf pag 47https://micmac.ensg.eu/index.php/Tapioca",
+    "pathCouples" : "../images",
+    "parameters":
+    {
+	    "Arg_1": { 
+                        "value" : "./",
+                        "description" : ""
+                        },
+        "Arg_2" : 
+                {
+                    "value" : "NKS-Rel-ByFile@FileImagesNeighbour.xml",
+                    "description" : ""
+                },
+        "Arg_3":
+            {
+                "value" : "600",
+                "description" : ""
+            },
+        "Arg_4":
+            {
+                "value" : "MkF=./MkTapioca",
+                "description" : ""
+            },
+        "Arg_5":
+            {
+                "value" : "NbMinPtsExp=2",
+                "description" : ""
+            },
+        "Arg_6":
+            {
+                "value" : "ForceByDico=1",
+                "description" : ""
+            },
+        "Arg_7":
+            {
+                "value" : "Detect=mm3d:Sift",
+                "description" : ""
+            },
+        "Arg_8":
+            {
+                "value" : "Match=mm3d:Ann",
+                "description" : ""
+            },
+        "Arg_9":
+                {
+                    "value" : "ratio=0.600000",
+                    "description" : ""
+                },
+        "Arg_10":
+                {
+                    "value" : "NKS=NKS-Assoc-CplIm2Hom@@dat",
+                    "description" : ""
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after pastis command execution"
+                  },
+        "logfile" : "Log_MM3D_Pastis.log"
+	} 
+}
