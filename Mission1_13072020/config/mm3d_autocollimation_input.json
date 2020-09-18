@@ -15,7 +15,7 @@
             },
 	    "Allow_Candidate": { 
                         "value" : "0",
-                        "description" : "bool; enable candidate marker proceesing (default = True)"
+                        "description" : "bool; enable candidate marker proceesing (default = True ->1)"
                         },
         "Marker_Mode": { 
                     "value" : "4x4",

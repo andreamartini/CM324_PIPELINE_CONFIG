@@ -14,11 +14,11 @@
                         "description" : "string ; Full name (Dir+Pat)"
                         },
         "OrientationIn": { 
-                    "value" : "RettSparsePC-Basic",
+                    "value" : "RettSparsePC",
                     "description" : "string; Orientation in"
                     },
         "OrientationOut": { 
-                    "value" : "RettSparsePC-Basic2",
+                    "value" : "RettSparsePC-Basc2",
                     "description" : "string; Orientation out"
                     },
         "GroundControlPointsFile": 

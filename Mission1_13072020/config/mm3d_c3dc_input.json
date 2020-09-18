@@ -10,7 +10,7 @@
     "parameters":
     {
 	    "Mode": { 
-                    "value" : "QuickMac",
+                    "value" : "MicMac",
                     "description" : "multistereoscopic with ZoomF=8, ie. low preset 1pt/64px (other Values: Statue, Forest, TestIGN, MicMac, BigMac"
                     },
         "RegExp": 
@@ -20,7 +20,7 @@
                 },
         "Orientation": 
                 {
-                    "value" : "rettCal-Campari-GPS",
+                    "value" : "RettFinal",
                     "description" : "is the orientation directory of the images to use to compute the point cloud (last orientation directory computed, step Center Bascule or Campari)."
                 },
         "Output": 
