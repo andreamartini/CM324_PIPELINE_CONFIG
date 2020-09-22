@@ -30,7 +30,7 @@
                 },
        
         "Timeout":{
-                    "value" : 8500,
+                    "value" : 60000,
                     "description" : "integer; expressed in seconds. Avoid to wait undefined time after c3dc command execution"
                   },
         "logfile" : "Log_MM3D_C3DC.log"
