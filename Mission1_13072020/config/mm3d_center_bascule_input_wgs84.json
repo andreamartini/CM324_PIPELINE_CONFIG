@@ -1,0 +1,45 @@
+{
+	"file": "mm3d_center_bascule_input.json",
+	"version": "1.0",
+	"date": "21/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "CenterBascule",
+    "info" : "https://micmac.ensg.eu/index.php/CenterBascule",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "FullName": { 
+                        "value" : ".*JPG",
+                        "description" : "string ; Full name (Dir+Pat)"
+                        },
+        "OrientationIn": { 
+                    "value" : "FraserRel",
+                    "description" : "string; Orientation in"
+                    },
+        "LocalizationOfInformationCenters": { 
+                    "value" : "rett_Georef",
+                    "description" : "string; Localization of Information on Centers"
+                    },
+        "Out": 
+                {
+                    "value" : "RettCal",
+                    "description" : "string; Orientation out"
+                },
+        "CalcV": 
+                {
+                    "value" : "1",
+                    "description" : " bool; Use speed to estimate time delay (Def=false)"
+                },
+        "L1": 
+                {
+                    "value" : "0",
+                    "description" : " bool; L1 minimization vs L2; (Def=false)"
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after center bascule command execution"
+                  },
+        "logfile" : "Log_MM3D_CenterBascule.log"
+	} 
+}

@@ -1,0 +1,63 @@
+{
+	"file": "MISSION1_WGS84_project.json",
+	"version": "1.0",
+	"date": "24/09/2020",
+    "author": "",
+    "description": "Missione su cantiere in Piemonte del luglio 2020",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "XifGps2Txt,AddFormattedHeader,XifGps2Xml,Oriconvert,Tapioca,Tapas,AperiCloud,CenterBascule,Campari,ChgSysCo",
+    "pipeline":
+    {
+        "XifGps2Txt": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_xifgps2txt_input_wgs84.json",
+                    "description" : "file di configurazione per il comando XifGps2Txt"
+                },
+        "AddFormattedHeader":{
+            "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_addformattedheader_input.json",
+            "description" : "file di configurazione per il comando addheader"
+        },
+        "XifGps2Xml": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_xifgps2xml_input.json",
+                    "description" : "file di configurazione per il comando XifGps2Xml"
+                } ,
+        "Oriconvert": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_oriconvert_input_wgs84.json",
+                    "description" : "file di configurazione per il comando Oriconvert"
+                },
+        "Tapioca": 
+                        {
+                            "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_tapioca_input_wgs84.json",
+                            "description" : "file di configurazione per il comando Tapioca"
+                        },
+        "Tapas": 
+                        {
+                            "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_tapas_input_wgs84.json",
+                            "description" : "file di configurazione per il comando tapas"
+                        },
+        "AperiCloud": 
+                        {
+                            "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_apericloud_input_wgs84.json",
+                            "description" : "file di configurazione per il comando apericloud"
+                        },
+        "CenterBascule": 
+                        {
+                            "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_center_bascule_input_wgs84.json",
+                            "description" : "file di configurazione per il comando CenterBascule"
+                        },
+        "Campari": 
+                        {
+                            "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_campari_input_wgs84.json",
+                            "description" : "file di configurazione per il comando Campari"
+                        },
+        "ChgSysCo": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_chgsysco_input.json",
+                    "description" : "file di configurazione per il comando ChgSysCo"
+                }
+	} 
+}

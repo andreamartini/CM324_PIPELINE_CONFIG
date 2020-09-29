@@ -1,0 +1,32 @@
+{
+	"file": "mm3d_tapioca_input.json",
+	"version": "1.0",
+	"date": "08/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Tapioca",
+    "info" : "https://micmac.ensg.eu/index.php/Tapioca",
+    "pathCouples" : "../images",
+    "parameters":
+    {
+	    "Mode": { 
+                    "value" : "File",
+                    "description" : ""
+                },
+        "NameCple" : 
+                {
+                    "value" : "FileImagesNeighbour.xml",
+                    "description" : "Name of XML file where couples already saved"
+                },
+        "Resolution":
+            {
+                "value" : "500",
+                "description" : "integer; is the resolution width to use for the computations of ties point in pixel"
+            },
+        "Timeout":{
+                    "value" : 18500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after tapioca command execution"
+                  },
+        "logfile" : "Log_MM3D_Tapioca.log"
+	} 
+}
