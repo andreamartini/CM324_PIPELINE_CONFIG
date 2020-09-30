@@ -1,0 +1,37 @@
+{
+	"file": "mm3d_nuage2ply_input.json",
+	"version": "1.0",
+	"date": "29/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Nuage2Ply",
+    "info" : "https://micmac.ensg.eu/index.php/Nuage2Ply",
+    "pathImages" : "../images",
+    "parameters":
+    {
+       
+        "XMLFile": { 
+                "value" : "MEC-Malt/NuageImProf_STD-MALT_Etape_8.xml",
+                "description" : "string; Name of XML file"
+                },
+        "Attr": { 
+                "value" : "Attr=Ortho-MEC-Malt/Orthophotomosaic.tif",
+                "description" : "string; Image to colour the point"
+                },
+        "Out": 
+                {
+                    "value" : "Out=PointCloud_OffsetUTM.ply",
+                    "description" : "string; Name of result (default toto.xml => toto.ply)"
+                },
+        "Offs": 
+                {
+                    "value" : "Offs=[0,0,0]",
+                    "description" : " Pt3dr; Offset in points to limit 32 Bits accuracy problem ; example : Offs=[300000,5000000,0]"
+                },
+        "Timeout":{
+                    "value" : 18500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after Tawny  command execution"
+                  },
+        "logfile" : "Log_Nuage2Ply.log"
+	} 
+}

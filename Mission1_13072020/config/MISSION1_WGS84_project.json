@@ -7,7 +7,7 @@
 	"project" : "cm324",
     "type": "Project",
     "Timeout" : 10000,
-    "List": "XifGps2Txt,AddFormattedHeader,XifGps2Xml,Oriconvert,Tapioca,Tapas,AperiCloud,CenterBascule,Campari,ChgSysCo",
+    "List": "XifGps2Txt,AddFormattedHeader,XifGps2Xml,Oriconvert,Tapioca,Tapas,AperiCloud,CenterBascule,Campari,ChgSysCo,AperiCloud#1,GCPConvert,AutoCollimation,GCPBascule,Campari#1,AperiCloud#2,Malt,Tawny,Nuage2Ply",
     "pipeline":
     {
         "XifGps2Txt": 

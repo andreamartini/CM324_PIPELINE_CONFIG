@@ -1,0 +1,48 @@
+{
+	"file": "mm3d_malt_input.json",
+	"version": "1.0",
+	"date": "29/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "malt",
+    "info" : "https://micmac.ensg.eu/index.php/Malt",
+    "pathImages" : "../images",
+    "parameters":
+    {
+       
+        "Type": { 
+                "value" : "Ortho",
+                "description" : "string; Correlation mode (must be in allowed enumerated values). Values Admitted: Ortho, UrbanMNE, GeomImage"
+                },
+        "Image_Pattern": { 
+            "value" : ".*JPG",
+            "description" : "string; Full Name (Dir+Pattern)"
+            },
+	"Orientation": { 
+                        "value" : "UTM32nFinal",
+                        "description" : "string; Orientation"
+                },
+        "EZA": { 
+                    "value" : "EZA=1",
+                    "description" : "bool; Export Z Absolute"
+            },
+        "ZoomF": { 
+                "value" : "ZoomF=2",
+                "description" : "int; Final zoom, (Def 2 in ortho,1 in MNE)"
+        },
+        "DoOrtho": { 
+                "value" : "DoOrtho=1",
+                "description" : "bool ;Do the Ortho (Def=mDoMEC)"
+        },
+        "Output": 
+                {
+                    "value" : "",
+                    "description" : ""
+                },
+        "Timeout":{
+                    "value" : 18500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after malt  command execution"
+                  },
+        "logfile" : "Log_Malt.log"
+	} 
+}

@@ -1,0 +1,28 @@
+{
+	"file": "mm3d_tawny_input.json",
+	"version": "1.0",
+	"date": "29/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Tawny",
+    "info" : "https://micmac.ensg.eu/index.php/Tawny",
+    "pathImages" : "../images",
+    "parameters":
+    {
+       
+        "Data_Directory": { 
+                "value" : "Ortho-MEC-Malt/",
+                "description" : "string; Data_Directory"
+                },
+        "Output": 
+                {
+                    "value" : "",
+                    "description" : ""
+                },
+        "Timeout":{
+                    "value" : 18500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after Tawny  command execution"
+                  },
+        "logfile" : "Log_Tawny.log"
+	} 
+}
