@@ -58,6 +58,51 @@
                 {
                     "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_chgsysco_input.json",
                     "description" : "file di configurazione per il comando ChgSysCo"
+                },
+                "AperiCloud#1": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_apericloud1_input.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "GCPConvert": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_gcpconvert_input_wgs84.json",
+                    "description" : "file di configurazione per il comando GCPConvert"
+                },
+        "AutoCollimation":
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_autocollimation_input.json",
+                    "description" : "file di configurazione per il comando di collimazione automatica"       
+                },
+        "GCPBascule":
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_gcpbascule_input_wgs84.json",
+                    "description" : "file di configurazione per il comando gcp bascule"       
+                },
+        "Campari#1": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_campari1_input_wgs84.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud#2": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_apericloud2_input_wgs84.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "Malt":
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_malt_input.json",
+                    "description" : "file di configurazione per il comando Malt"       
+                },
+        "Tawny": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_tawny_input.json",
+                    "description" : "file di configurazione per il comando Tawny"
+                },
+        "Nuage2Ply": 
+                {
+                    "value" : "/home/cm324/Desktop/DATASET/MISSION1/config/mm3d_nuage2ply_input.json",
+                    "description" : "file di configurazione per il comando Nuage2Ply"
                 }
 	} 
 }
