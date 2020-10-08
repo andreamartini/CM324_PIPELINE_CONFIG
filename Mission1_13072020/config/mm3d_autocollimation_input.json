@@ -14,9 +14,13 @@
             "description" : "string; File image extension (default = *.JPG)"
             },
 	    "Allow_Candidate": { 
-                        "value" : "0",
+                        "value" : "1",
                         "description" : "bool; enable candidate marker proceesing (default = True ->1)"
                         },
+        "Allow_FeatureVector": { 
+                            "value" : "0",
+                            "description" : "bool; enable feature vector proceesing (default = True ->1)"
+                            },
         "Marker_Mode": { 
                     "value" : "4x4",
                     "description" : "string; type of information into aruco marker (default 4x4)"
