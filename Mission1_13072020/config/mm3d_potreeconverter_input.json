@@ -1,0 +1,26 @@
+{
+	"file": "mm3d_potreeconverter_input.json",
+	"version": "1.0",
+	"date": "29/10/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Pdal",
+    "info" : "https://potree.org/",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "Input": { 
+                    "value" : "pdal_point_cloud.las",
+                    "description" : "Input file"
+                    },
+      "OutputFolder": { 
+                      "value" : "potree",
+                      "description" : "Output Folder"
+                      },
+        "Timeout":{
+                    "value" : 1000,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after potree converter command execution"
+                  },
+        "logfile" : "Log_potreeconverter.log"
+	} 
+}

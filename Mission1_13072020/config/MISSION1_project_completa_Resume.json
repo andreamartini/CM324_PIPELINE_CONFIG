@@ -1,0 +1,24 @@
+{
+	"file": "MISSION1_project.json",
+	"version": "1.0",
+	"date": "07/07/2020",
+    "author": "",
+    "description": "Missione su cantiere in Piemonte del luglio 2020",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "C3DC,PotreeConverter",
+    "pipeline":
+    {
+	"C3DC": 
+                {
+                    "value" : "mm3d_c3dc_input.json",
+                    "description" : "file di configurazione per il comando C3DC"
+                },
+	"PotreeConverter":
+                {
+                    "value" : "mm3d_potreeconverter_input.json",
+                    "description" : "file di configurazione per il comando potree converter"       
+                }
+	}
+}

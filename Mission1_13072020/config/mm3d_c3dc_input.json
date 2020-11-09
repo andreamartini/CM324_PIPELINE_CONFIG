@@ -20,7 +20,7 @@
                 },
         "Orientation": 
                 {
-                    "value" : "RettFinal",
+                    "value" : "Ori-RettFinal",
                     "description" : "is the orientation directory of the images to use to compute the point cloud (last orientation directory computed, step Center Bascule or Campari)."
                 },
         "Output": 

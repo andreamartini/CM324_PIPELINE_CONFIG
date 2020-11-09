@@ -10,7 +10,7 @@
     "parameters":
     {
 	    "Input": { 
-                    "value" : "point_cloud.ply",
+                    "value" : "DensePointcloud.ply",
                     "description" : "Input file"
                     },
         "Output": 

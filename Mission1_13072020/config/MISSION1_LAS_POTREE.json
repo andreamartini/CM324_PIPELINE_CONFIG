@@ -1,0 +1,39 @@
+{
+	"file": "MISSION1_project.json",
+	"version": "1.0",
+	"date": "07/07/2020",
+    "author": "",
+    "description": "Missione su cantiere in Piemonte del luglio 2020",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "PoissonRecon,SurfaceTrimmer,Pdal,CloudCompare,PotreeConverter",
+    "pipeline":
+    {
+        "PoissonRecon": 
+                {
+                    "value" : "mm3d_poissonrecon_input.json",
+                    "description" : "file di configurazione per il comando PoissonRecon"
+                },
+        "SurfaceTrimmer":
+                {
+                    "value" : "mm3d_surfacetrimmer_input.json",
+                    "description" : "file di configurazione per il comando SurfaceTrimmer"       
+                },
+        "Pdal":
+                {
+                    "value" : "mm3d_pdal_input.json",
+                    "description" : "file di configurazione per il comando pdal"       
+                },
+        "CloudCompare":
+                {
+                    "value" : "mm3d_cloudcompare_input.json",
+                    "description" : "file di configurazione per il comando cloudcompare"       
+                },
+	"PotreeConverter":
+                {
+                    "value" : "mm3d_potreeconverter_input.json",
+                    "description" : "file di configurazione per il comando potree converter"       
+                }
+	} 
+}
