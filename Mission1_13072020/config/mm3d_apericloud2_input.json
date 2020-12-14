@@ -10,7 +10,7 @@
     "parameters":
     {
 	    "Full_name": { 
-                        "value" : "*.JPG",
+                        "value" : ".*JPG",
                         "description" : "Full name (Dir+Pattern)"
                         },
         "Orientation": { 
@@ -26,6 +26,6 @@
                     "value" : 8500,
                     "description" : "integer; expressed in seconds. Avoid to wait undefined time after center bascule command execution"
                   },
-        "logfile" : "Log_MM3D_Apericloud1.log"
+        "logfile" : "Log_MM3D_Apericloud2.log"
 	} 
 }
