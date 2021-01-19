@@ -13,10 +13,43 @@
                     "value" : "pdal_point_cloud.las",
                     "description" : "Input file"
                     },
-      "OutputFolder": { 
+      	"OutputFolder": { 
                       "value" : "potree",
                       "description" : "Output Folder"
                       },
+      "Projection": { 
+                      "value" : "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs ",
+                      "description" : "Specify projection in proj4 format."
+                      },
+      "ProjectName": { 
+                      "value" : "Ridotto",
+                      "description" : "Project Name for Viewer Html"
+                      },
+      "SurveyName": { 
+                      "value" : "Rilievo2",
+                      "description" : "Survey Name for Viewer Html"
+                      },
+      "Title": { 
+                      "value" : "Rilievo Ridotto",
+                      "description" : "Title for Viewer Html page"
+                      },
+      "SubTitle": { 
+                      "value" : "Porzione di strada dal km al km",
+                      "description" : "SubTitle for Viewer Html page"
+                      },
+      "ProjectFolderName": { 
+                      "value" : "Ridotto",
+                      "description" : "FolderName for Viewer Html page"
+                      },
+      "Destination": { 
+                      "value" : "./Potree",
+                      "description" : "Destination FolderName for Viewer Html page"
+                      },
+      "Camera": { 
+                      "value" : "asse.dxf",
+                      "description" : "DXF File for Camera Animation info"
+                      },
+
         "Timeout":{
                     "value" : 1000,
                     "description" : "integer; expressed in seconds. Avoid to wait undefined time after potree converter command execution"
