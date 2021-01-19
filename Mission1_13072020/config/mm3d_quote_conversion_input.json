@@ -1,0 +1,34 @@
+{
+	"file": "mm3d_quote_conversion_input.json",
+	"version": "1.0",
+	"date": "28/08/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Quote_conversion",
+    "info" : "",
+    "pathImages" : "../images",
+    "test" : "GCP_WGS84_UTM32n_Qo.txt",
+    "parameters":
+    {
+        "InputFile": 
+                {
+                    "value" : "GCP_WGS84_UTM32n_Qe.txt",
+                    "description" : "string; GCP file path with ellipsoidical quotes"
+                },
+        "OutputFile": 
+        {
+            "value" : "GCP_WGS84_UTM32n_Qo.txt",
+            "description" : "string; Output File path with orthometric quotes"
+        },
+        "GridFile": 
+        {
+            "value" : "/home/sipal-1297/Development/CM324_master_repo/CM324_MicMac_pipeline/testDataset/images/104_Bassano_del_Grappa.GK2",
+            "description" : "string; Grid file path for altitude correction"
+        },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after campari command execution"
+                  },
+        "logfile" : "Log_MM3D_Campari.log"
+	} 
+}

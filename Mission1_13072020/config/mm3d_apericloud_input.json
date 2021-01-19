@@ -10,7 +10,7 @@
     "parameters":
     {
 	    "Full_name": { 
-                        "value" : "*.JPG",
+                        "value" : ".*JPG",
                         "description" : "Full name (Dir+Pattern)"
                         },
         "Orientation": { 
