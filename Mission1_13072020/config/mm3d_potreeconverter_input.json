@@ -17,28 +17,24 @@
                       "value" : "potree",
                       "description" : "Output Folder"
                       },
-      "Projection": { 
-                      "value" : "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs ",
-                      "description" : "Specify projection in proj4 format."
-                      },
       "ProjectName": { 
-                      "value" : "Ridotto",
+                      "value" : "project_4",
                       "description" : "Project Name for Viewer Html"
                       },
       "SurveyName": { 
-                      "value" : "Rilievo2",
+                      "value" : "survey_2",
                       "description" : "Survey Name for Viewer Html"
                       },
       "Title": { 
-                      "value" : "Rilievo Ridotto",
+                      "value" : "Mission1",
                       "description" : "Title for Viewer Html page"
                       },
       "SubTitle": { 
-                      "value" : "Porzione di strada dal km al km",
+                      "value" : " - by Sipal spa",
                       "description" : "SubTitle for Viewer Html page"
                       },
       "ProjectFolderName": { 
-                      "value" : "Ridotto",
+                      "value" : "project_4",
                       "description" : "FolderName for Viewer Html page"
                       },
       "Destination": { 
@@ -46,7 +42,7 @@
                       "description" : "Destination FolderName for Viewer Html page"
                       },
       "Camera": { 
-                      "value" : "asse.dxf",
+                      "value" : "asse1.dxf",
                       "description" : "DXF File for Camera Animation info"
                       },
 
