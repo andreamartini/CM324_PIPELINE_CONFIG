@@ -17,35 +17,18 @@
                       "value" : "potree",
                       "description" : "Output Folder"
                       },
-      "ProjectName": { 
-                      "value" : "project_4",
-                      "description" : "Project Name for Viewer Html"
-                      },
-      "SurveyName": { 
-                      "value" : "survey_2",
-                      "description" : "Survey Name for Viewer Html"
-                      },
       "Title": { 
-                      "value" : "Mission1",
+                      "value" : "Trincea",
                       "description" : "Title for Viewer Html page"
                       },
       "SubTitle": { 
-                      "value" : " - by Sipal spa",
+                      "value" : "Porzione di strada dal km al km",
                       "description" : "SubTitle for Viewer Html page"
                       },
-      "ProjectFolderName": { 
-                      "value" : "project_4",
-                      "description" : "FolderName for Viewer Html page"
-                      },
-      "Destination": { 
-                      "value" : "./Potree",
-                      "description" : "Destination FolderName for Viewer Html page"
-                      },
       "Camera": { 
-                      "value" : "asse1.dxf",
-                      "description" : "DXF File for Camera Animation info"
+                      "value" : "Asse3D.dxf;DXF_3D;Ettometriche.dxf;63.300",
+                      "description" : "npla (file ASSE in dxf;tipo di file 2D  3D;File di ettometriche in dxf;km di Partenza ettometriche"
                       },
-
         "Timeout":{
                     "value" : 1000,
                     "description" : "integer; expressed in seconds. Avoid to wait undefined time after potree converter command execution"
