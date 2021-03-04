@@ -1,0 +1,38 @@
+{
+	"file": "mm3d_potreeconverter_input.json",
+	"version": "1.0",
+	"date": "29/10/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Pdal",
+    "info" : "https://potree.org/",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "Input": { 
+                    "value" : "pdal_point_cloud.las",
+                    "description" : "Input file"
+                    },
+      	"OutputFolder": { 
+                      "value" : "potree",
+                      "description" : "Output Folder"
+                      },
+      "Title": { 
+                      "value" : "Trincea",
+                      "description" : "Title for Viewer Html page"
+                      },
+      "SubTitle": { 
+                      "value" : "Porzione di strada dal km al km",
+                      "description" : "SubTitle for Viewer Html page"
+                      },
+      "Camera": { 
+                      "value" : "Asse3D.dxf;DXF_3D;Ettometriche.dxf;63.300",
+                      "description" : "npla (file ASSE in dxf;tipo di file 2D  3D;File di ettometriche in dxf;km di Partenza ettometriche"
+                      },
+        "Timeout":{
+                    "value" : 1000,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after potree converter command execution"
+                  },
+        "logfile" : "Log_potreeconverter.log"
+	} 
+}

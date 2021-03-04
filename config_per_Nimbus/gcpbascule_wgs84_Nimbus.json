@@ -1,0 +1,40 @@
+{
+	"file": "mm3d_gcpbascule_input_wgs84.json",
+	"version": "1.0",
+	"date": "27/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "GCPBascule",
+    "info" : "https://micmac.ensg.eu/index.php/GCPBascule",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "FullName": { 
+                        "value" : ".*jpg",
+                        "description" : "string ; Full name (Dir+Pat)"
+                        },
+        "OrientationIn": { 
+                    "value" : "UTM33n",
+                    "description" : "string; Orientation in"
+                    },
+        "OrientationOut": { 
+                    "value" : "UTM33n-Basc2",
+                    "description" : "string; Orientation out"
+                    },
+        "GroundControlPointsFile": 
+                {
+                    "value" : "GCPCollimation.xml",
+                    "description" : "string; Ground Control Points File"
+                },
+        "ImageMeasurementFile": 
+                {
+                    "value" : "MeasureFinal-S2D.xml",
+                    "description" : " string; Image Measurements File"
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after center bascule command execution"
+                  },
+        "logfile" : "Log_MM3D_GCPBascule.log"
+	} 
+}

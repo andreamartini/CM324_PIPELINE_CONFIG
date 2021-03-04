@@ -1,0 +1,32 @@
+{
+	"file": "mm3d_tapas_input.json",
+	"version": "1.0",
+	"date": "13/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Tapas",
+    "info" : "https://micmac.ensg.eu/index.php/Tapas",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "CalibrationModel": { 
+                        "value" : "Fraser",
+                        "description" : "radial model, with decentric and affine parameters; there are 12 degrees of freedom: 1 for focal length, 2 for principal point, 2 for distortion centre, 3 for coefficients of radial distortion (r3, r5 r7), 2 for decentric parameters, 2 for affine parameters"
+                        },
+        "Output": 
+                {
+                    "value" : "FraserRel",
+                    "description" : "Optional argument; allows you to choose the name of the output orientation directory, automatically renamed Ori-name of the directory"
+                },
+        "RegExp": 
+                {
+                    "value" : ".*jpg",
+                    "description" : "Regular Expression referring to the images to process"
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after tapas command execution"
+                  },
+        "logfile" : "Log_MM3D_Tapas.log"
+	} 
+}

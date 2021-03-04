@@ -1,0 +1,26 @@
+{
+	"file": "mm3d_addformattedheader_input.json",
+	"version": "1.0",
+	"date": "23/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "addformattedheader",
+    "info" : "",
+    "pathImages" : "../images",
+    "parameters":
+    {
+        "Input": { 
+            "value" : "GpsCoordinatesFromExif.txt",
+            "description" : "string; default value 'GpsCoordinatesFromExif.txt'"
+            },
+        "Output": { 
+                "value" : "GpsCoordinatesFromExif.txt",
+                "description" : "string; default value #INPUT PARAMETER"
+                },
+        "Timeout":{
+                    "value" : 100,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after XifGps2Txt  command execution"
+                  },
+        "logfile" : "Log_AddFormattedHeader.log"
+	} 
+}

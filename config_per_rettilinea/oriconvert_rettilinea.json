@@ -1,0 +1,41 @@
+{
+	"file": "mm3d_oriconvert_input.json",
+	"version": "1.0",
+	"date": "07/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "OriConvert",
+    "info" : "https://micmac.ensg.eu/index.php/OriConvert",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "file_format": { 
+                        "value" : "OriTxtInFile",
+                        "description" : ""
+                        },
+        "position_text_file":  
+                        {
+                            "value" : "GPSexif_rett_Qe.txt",
+                            "description" : ""
+                        },
+        "output" : {
+                            "value" : "rett_Georef",
+                            "description" : "part of folder name where output will be stored"
+                        },
+        "MTD1" : {
+                    "value" : "MTD1=1",
+                    "description" : "bool; Compute Metadata only for first image (tuning)"
+                },
+        "NameCple" : 
+                {
+                    "value" : "NameCple=FileImagesNeighbour.xml",
+                    "description" : "Name of XML file to save couples"
+                },
+        "CalcV":
+            {
+                "value" : "CalcV=1",
+                "description" : "bool; Compute speed (def = false)"
+            },
+        "logfile" : "Log_MM3D_Oriconvert.log"
+	} 
+}

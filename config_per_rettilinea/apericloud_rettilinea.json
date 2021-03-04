@@ -1,0 +1,31 @@
+{
+	"file": "mm3d_apericloud_input.json",
+	"version": "1.0",
+	"date": "24/08/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "AperiCloud",
+    "info" : "https://micmac.ensg.eu/index.php/AperiCloud",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "Full_name": { 
+                        "value" : ".*JPG",
+                        "description" : "Full name (Dir+Pattern)"
+                        },
+        "Orientation": { 
+                    "value" : "FraserRel",
+                    "description" : "Orientation directory"
+                    },
+        "Out": 
+                {
+                    "value" : "DensePointCloud.ply",
+                    "description" : "Result (Def=AperiCloud.ply)"
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after center bascule command execution"
+                  },
+        "logfile" : "Log_MM3D_Apericloud.log"
+	} 
+}

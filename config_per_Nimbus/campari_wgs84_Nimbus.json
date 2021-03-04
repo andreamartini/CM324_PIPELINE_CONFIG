@@ -1,0 +1,49 @@
+{
+	"file": "mm3d_campari_input.json",
+	"version": "1.0",
+	"date": "28/08/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Campari",
+    "info" : "https://micmac.ensg.eu/index.php/Campari",
+    "pathImages" : "../images",
+    "parameters":
+    {
+        "FullDirectory": 
+                {
+                    "value" : ".*jpg",
+                    "description" : "string; Full Directory (Dir+Pattern)"
+                },
+	    "InputOrientation": { 
+                        "value" : "Tmp_RTL",
+                        "description" : "Is the orientation directory you want to perform the adjustment on (absolute orientation computed previously Center Bascule)"
+                        },
+        "OutputOrientation": 
+                {
+                    "value" : "All_RTL",
+                    "description" : "Output Orientation Directory, after compensation (automatically automatically renamed Ori-name of the directory)"
+                },
+        
+        "EmGPS": 
+                {
+                    "value" : "[Initial_RTL,5]",
+                    "description" : "Specifies that you use GPS positions stored in the Ori_GPS orientation directory (step Oriconvert) and having the declared uncertainty (in ground unit, e.g. meters)."
+                },
+        "FocFree": 
+                {
+                    "value" : "1",
+                    "description" : "bool, Foc Free (Def=false)."
+                },
+        "PPFree": 
+                {
+                    "value" : "1",
+                    "description" : "bool;Principal Point Free (Def=false)"
+                },
+        "Timeout":
+		{
+		    "value" : 8500,
+		    "description" : "integer; expressed in seconds. Avoid to wait undefined time after campari command execution"
+                },
+        "logfile" : "Log_MM3D_Campari.log"
+	} 
+}

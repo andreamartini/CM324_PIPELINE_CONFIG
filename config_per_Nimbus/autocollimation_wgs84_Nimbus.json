@@ -1,0 +1,54 @@
+{
+	"file": "mm3d_autocollimation_input.json",
+	"version": "1.0",
+	"date": "28/08/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "AutoCollimation",
+    "info" : "Comando custom, basato su Aruco e OpenCV",
+    "pathImages" : "../images",
+    "parameters":
+    {
+        "RegExp": { 
+            "value" : "*.jpg",
+            "description" : "string; File image extension (default = *.JPG)"
+            },
+	    "Allow_Candidate": { 
+                        "value" : "0",
+                        "description" : "bool; enable candidate marker proceesing (default = True ->1)"
+                        },
+        "Allow_FeatureVector": { 
+                            "value" : "0",
+                            "description" : "bool; enable feature vector proceesing (default = True ->1)"
+                            },
+        "Marker_Mode": { 
+                    "value" : "4x4",
+                    "description" : "string; type of information into aruco marker (default 4x4)"
+                    },
+        "Output_Path": 
+                {
+                    "value" : "OUTPUT",
+                    "description" : "string; Folder where saves results"
+                },
+        "Feature_Vector": 
+                {
+                    "value" : "0,GCP4x4_FeaturesVector.json",
+                    "description" : "couple; Max bit difference (default 4), Path for json descriptor of template marker"
+                },
+        "Output": 
+                {
+                    "value" : "MeasureFinal-S2D.xml",
+                    "description" : "string; Collimation file name (Def = MeasureFinal-S2D.xml)"
+                },
+        "Output_Recap": 
+                {
+                    "value" : "RecapMission1_reduced.json",
+                    "description" : "string; Recap collimation file name (Def = RecapMission1_reduced.json)"
+                },             
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after center bascule command execution"
+                  },
+        "logfile" : "Log_Auto_Collimation.log"
+	} 
+}

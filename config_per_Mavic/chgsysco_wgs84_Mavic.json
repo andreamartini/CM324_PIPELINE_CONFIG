@@ -1,0 +1,40 @@
+{
+	"file": "mm3d_chgsysco_input.json",
+	"version": "1.0",
+	"date": "29/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "chsysco",
+    "info" : "web site not present",
+    "pathImages" : "../images",
+    "parameters":
+    {
+       
+        "FullName": { 
+                "value" : ".*JPG",
+                "description" : "Images type"
+                },
+        "Param1": { 
+            "value" : "All_RTL",
+            "description" : "string;"
+            },
+	"Param2": { 
+                        "value" : "RTLFromExif.xml@SysUTM.xml",
+                        "description" : "string"
+                },
+        "Param3": { 
+                    "value" : "UTM33n",
+                    "description" : "string"
+            },
+        "Output": 
+                {
+                    "value" : "",
+                    "description" : ""
+                },
+        "Timeout":{
+                    "value" : 18500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after chsysco  command execution"
+                  },
+        "logfile" : "Log_ChgSysCo.log"
+	} 
+}

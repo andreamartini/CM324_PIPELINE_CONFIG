@@ -1,0 +1,52 @@
+{
+	"file": "mm3d_gcpconvert_wgs84.json",
+	"version": "1.0",
+	"date": "25/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "GCPConvert",
+    "info" : "https://micmac.ensg.eu/index.php/GCPConvert",
+    "pathImages" : "../images",
+    "parameters":
+    {
+	    "FormatSpecification": { 
+                    "value" : "#F=N X Y Z",
+                    "description" : "string; Format specification"
+                },
+        "GCPFile" : 
+                {
+                    "value" : "GCP_UTM33n_Qo.txt",
+                    "description" : "string; GCP File"
+                },
+        "Out":
+            {
+                "value" : "GCPCollimation.xml",
+                "description" : "string; Xml Out File"
+            },
+        "ChSys":
+            {
+                "value" : "",
+                "description" : "string; Change coordinate file"
+            },
+        "MulCo":
+            {
+                "value" : "",
+                "description" : "real; Multiplier of result (for development and testing use)"
+            },
+        "MulInc":
+            {
+                "value" : "",
+                "description" : "bool; Multiplier also incertitude ? (for development and testing use)"
+            },
+        "Offs":
+            {
+                "value" : "",
+                "description" : "point3d; Offset to substruct to all coordinates ; Def=[0,0,0]"
+            },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after tapioca command execution"
+                  },
+        "logfile" : "Log_MM3D_GCPConvert.log"
+	} 
+}

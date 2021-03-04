@@ -1,0 +1,119 @@
+{
+	"file": "M_WGS84.json",
+	"version": "1.0",
+	"date": "24/02/2021",
+    "author": "Marco",
+    "description": "Pipeline per rilievi WGS84 acquisiti con droni Nimbus",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "image_extension": "jpg",
+    "List": "XifGps2Txt,AddFormattedHeader,XifGps2Xml,Oriconvert,Tapioca,Tapas,AperiCloud,CenterBascule,Campari,ChgSysCo,AperiCloud#1,GCPConvert,AutoCollimation,GCPBascule,Campari#1,AperiCloud#2,Malt,Tawny,Nuage2Ply,Pdal,PotreeConverter",
+    "pipeline":
+    {
+        "XifGps2Txt": 
+                {
+                    "value" : "xifgps2txt_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando XifGps2Txt"
+                },
+        "AddFormattedHeader":{
+            "value" : "addformattedheader_wgs84_Nimbus.json",
+            "description" : "file di configurazione per il comando addheader"
+        },
+        "XifGps2Xml": 
+                {
+                    "value" : "xifgps2xml_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando XifGps2Xml"
+                } ,
+        "Oriconvert": 
+                {
+                    "value" : "oriconvert_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando Oriconvert"
+                },
+        "Tapioca": 
+                        {
+                            "value" : "tapioca_wgs84_Nimbus.json",
+                            "description" : "file di configurazione per il comando Tapioca"
+                        },
+        "Tapas": 
+                        {
+                            "value" : "tapas_wgs84_Nimbus.json",
+                            "description" : "file di configurazione per il comando tapas"
+                        },
+        "AperiCloud": 
+                        {
+                            "value" : "apericloud_wgs84_Nimbus.json",
+                            "description" : "file di configurazione per il comando apericloud"
+                        },
+        "CenterBascule": 
+                        {
+                            "value" : "center_bascule_wgs84_Nimbus.json",
+                            "description" : "file di configurazione per il comando CenterBascule"
+                        },
+        "Campari": 
+                        {
+                            "value" : "campari_wgs84_Nimbus.json",
+                            "description" : "file di configurazione per il comando Campari"
+                        },
+        "ChgSysCo": 
+                {
+                    "value" : "chgsysco_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando ChgSysCo"
+                },
+                "AperiCloud#1": 
+                {
+                    "value" : "apericloud1_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "GCPConvert": 
+                {
+                    "value" : "mm3d_gcpconvert_input_wgs84.json",
+                    "description" : "file di configurazione per il comando GCPConvert"
+                },
+        "AutoCollimation":
+                {
+                    "value" : "autocollimation_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando di collimazione automatica"       
+                },
+        "GCPBascule":
+                {
+                    "value" : "gcpbascule_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando gcp bascule"       
+                },
+        "Campari#1": 
+                {
+                    "value" : "campari1_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud#2": 
+                {
+                    "value" : "apericloud2_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "Malt":
+                {
+                    "value" : "malt_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando Malt"       
+                },
+        "Tawny": 
+                {
+                    "value" : "tawny_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando Tawny"
+                },
+        "Nuage2Ply": 
+                {
+                    "value" : "nuage2ply_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando Nuage2Ply"
+                },
+        "Pdal":
+                {
+                    "value" : "pdal_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando pdal"       
+                },
+	"PotreeConverter":
+                {
+                    "value" : "potreeconverter_wgs84_Nimbus.json",
+                    "description" : "file di configurazione per il comando potree converter"       
+                }
+	} 
+}

@@ -1,0 +1,33 @@
+{
+	"file": "mm3d_pdal_input.json",
+	"version": "1.0",
+	"date": "22/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "Pdal",
+    "info" : "https://pdal.io/",
+    "workingDir" : "../images",
+    "parameters":
+    {
+	    "Input": { 
+                    "value" : "DensePointcloud.ply",
+                    "description" : "Input file"
+                    },
+        "Output": 
+                {
+                    "value" : "pdal_point_cloud.las",
+                    "description" : "Output file"
+                },
+        "Command": 
+                {
+                    "value" : "translate",
+                    "description" : "Comando da passare a pdal per effettuare un'operazione"
+                },
+       
+        "Timeout":{
+                    "value" : 1500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after c3dc command execution"
+                  },
+        "logfile" : "Log_PDAL.log"
+	} 
+}

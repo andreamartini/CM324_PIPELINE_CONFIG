@@ -1,0 +1,43 @@
+{
+	"file": "mm3d_poissonrecon_input.json",
+	"version": "1.0",
+	"date": "22/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "PoissonRecon",
+    "info" : "https://github.com/mkazhdan/PoissonRecon",
+    "workingDir" : "../images",
+    "parameters":
+    {
+	    "Input": { 
+                    "value" : "DensePointcloud.ply",
+                    "description" : "Input file"
+                    },
+        "Output": 
+                {
+                    "value" : "poisson_recon_point_cloud.ply",
+                    "description" : "Output file"
+                },
+        "Depth": 
+                {
+                    "value" : "11",
+                    "description" : "Unknown."
+                },
+        "ThreadsNumber":
+		{
+                    "value" : "2",
+                    "description" : "WARNING: Greater it is (example 12), greater is risk to block processing. Dafault value 2"
+		},
+        "Color": 
+                {
+                    "value" : "16",
+                    "description" : "Color depth?"
+                },
+       
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after c3dc command execution"
+                  },
+        "logfile" : "Log_MM3D_POISSON_RECON.log"
+	} 
+}

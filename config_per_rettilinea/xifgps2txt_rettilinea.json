@@ -1,0 +1,39 @@
+{
+	"file": "mm3d_xifgps2txt_input.json",
+	"version": "1.0",
+	"date": "23/01/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "xifgps2txt",
+    "info" : "",
+    "pathImages" : "../images",
+    "parameters":
+    {
+        "NumProcessors": { 
+            "value" : "2",
+            "description" : "Number Of Processors used for processing"
+            },
+        "RegExp": { 
+                "value" : ".*JPG",
+                "description" : "Images type"
+                },
+        "Sys": { 
+            "value" : "WGS84_deg",
+            "description" : "System to express output coordinates : WGS84_deg/WGS84_rad/GeoC ; Def=WGS84_deg"
+            },
+	    "DefZ": { 
+                        "value" : "REAL",
+                        "description" : "to be described"
+                },
+        "Output": 
+                {
+                    "value" : "Transformed_Coordinates_MM.csv",
+                    "description" : "Def file created : ’GpsCoordinatesFromExif.txt’ "
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after XifGps2Txt  command execution"
+                  },
+        "logfile" : "Log_XifGps2Txt.log"
+	} 
+}

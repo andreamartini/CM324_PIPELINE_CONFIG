@@ -1,0 +1,109 @@
+{
+	"file": "M_rettilinea_completa.json",
+	"version": "1.0",
+	"date": "03/03/2021",
+    "author": "",
+    "description": "Pipeline rettilinea",
+	"project" : "cm324",
+    "type": "Project",
+    "Timeout" : 10000,
+    "List": "XifGps2Txt,Oriconvert,Tapioca,Tapas,AperiCloud,CenterBascule,Campari,AperiCloud#1,GCPConvert,AutoCollimation,GCPBascule,Campari#1,AperiCloud#2,C3DC,PoissonRecon,SurfaceTrimmer,Pdal,CloudCompare,PotreeConverter",
+    "pipeline":
+    {
+        "XifGps2Txt": 
+                {
+                    "value" : "xifgps2txt_rettilinea.json",
+                    "description" : "file di configurazione per il comando XifGps2Txt"
+                },
+        "Oriconvert": 
+                {
+                    "value" : "oriconvert_rettilinea.json",
+                    "description" : "file di configurazione per il comando Oriconvert"
+                },
+        "Tapioca": 
+                {
+                    "value" : "tapioca_rettilinea.json",
+                    "description" : "file di configurazione per il comando Tapioca"
+                },
+        "Tapas": 
+                {
+                    "value" : "tapas_rettilinea.json",
+                    "description" : "file di configurazione per il comando tapas"
+                },
+        "AperiCloud": 
+                {
+                    "value" : "apericloud_rettilinea.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "CenterBascule": 
+                {
+                    "value" : "center_bascule_rettilinea.json",
+                    "description" : "file di configurazione per il comando CenterBascule"
+                },
+        "Campari": 
+                {
+                    "value" : "campari_rettilinea.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud#1": 
+                {
+                    "value" : "apericloud1_rettilinea.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "GCPConvert": 
+                {
+                    "value" : "gcpconvert_rettilinea.json",
+                    "description" : "file di configurazione per il comando GCPConvert"
+                },
+        "AutoCollimation":
+                {
+                    "value" : "autocollimation_rettilinea.json",
+                    "description" : "file di configurazione per il comando di collimazione automatica"       
+                },
+        "GCPBascule":
+                {
+                    "value" : "gcpbascule_rettilinea.json",
+                    "description" : "file di configurazione per il comando gcp bascule"       
+                },
+        "Campari#1": 
+                {
+                    "value" : "campari1_rettilinea.json",
+                    "description" : "file di configurazione per il comando Campari"
+                },
+        "AperiCloud#2": 
+                {
+                    "value" : "apericloud2_rettilinea.json",
+                    "description" : "file di configurazione per il comando apericloud"
+                },
+        "C3DC": 
+                {
+                    "value" : "c3dc_rettilinea.json",
+                    "description" : "file di configurazione per il comando C3DC"
+                },
+        "PoissonRecon": 
+                {
+                    "value" : "poissonrecon_rettilinea.json",
+                    "description" : "file di configurazione per il comando PoissonRecon"
+                },
+        "SurfaceTrimmer":
+                {
+                    "value" : "surfacetrimmer_rettilinea.json",
+                    "description" : "file di configurazione per il comando SurfaceTrimmer"       
+                },
+        "Pdal":
+                {
+                    "value" : "pdal_rettilinea.json",
+                    "description" : "file di configurazione per il comando pdal"       
+                },
+        "CloudCompare":
+                {
+                    "value" : "cloudcompare_rettilinea.json",
+                    "description" : "file di configurazione per il comando cloudcompare"       
+                },
+	"PotreeConverter":
+                {
+                    "value" : "potreeconverter_rettilinea.json",
+                    "description" : "file di configurazione per il comando potree converter"       
+                }
+	} 
+}

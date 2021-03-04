@@ -1,0 +1,48 @@
+{
+	"file": "mm3d_xifgps2xml_input.json",
+	"version": "1.0",
+	"date": "23/09/2020",
+	"author": "",
+	"project" : "cm324",
+    "type": "xifgps2xml",
+    "info" : "https://micmac.ensg.eu/index.php/XifGps2Xml",
+    "pathImages" : "../images",
+    "parameters":
+    {
+       
+        "FullName": { 
+                "value" : ".*jpg",
+                "description" : "Images type"
+                },
+        "Orientation": { 
+            "value" : "RAWGNSS",
+            "description" : "string;"
+            },
+	    "DoRTL": { 
+                        "value" : "true",
+                        "description" : "bool ; Do Local Tangent RTL (def=true). Transform the coordinate in RTL"
+                },
+        "RTL": { 
+                    "value" : "",
+                    "description" : "string ; Name of the file which define the RTL"
+            },
+        "DefZ": { 
+                "value" : "",
+                "description" : "real ; Will allow to specify the altitude value, not implemanted for now"
+        },
+        "SysCo": { 
+            "value" : "RTLFromExif.xml",
+            "description" : "string; System of coordinates, by default RTL created (RTLFromExif.xml). Allow to change the coordinate system."
+        },
+        "Output": 
+                {
+                    "value" : "",
+                    "description" : ""
+                },
+        "Timeout":{
+                    "value" : 8500,
+                    "description" : "integer; expressed in seconds. Avoid to wait undefined time after XifGps2Txt  command execution"
+                  },
+        "logfile" : "Log_XifGps2Xml.log"
+	} 
+}
